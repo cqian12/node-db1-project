@@ -2,6 +2,9 @@
   "name": "node-db1-project",
   "version": "1.0.0",
   "main": "index.js",
+  "jest": {
+    "testEnvironment": "node"
+  },
   "scripts": {
     "start": "node index.js",
     "server": "nodemon index.js",
